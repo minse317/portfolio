@@ -1,8 +1,13 @@
+import './index.css';
 import Intro from './components/Intro'
+import About from './components/About'
 
 function App() {
   return (
-    <Intro />
+    <>
+      <Intro />
+      <About />
+    </>
   )
 }
 

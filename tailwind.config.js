@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'libre-baskerbille': ['Libre Baskerville', 'serif']
+        'noto-serif-kr': ['Noto Serif KR', 'serif']
       }
     },
   },

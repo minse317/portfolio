@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main() {
+function Intro() {
   return (
     <div className='h-screen font-noto-serif-kr text-9xl relative'>
       <div className='p-20'>BAEK MINSE</div>
@@ -9,4 +9,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Intro;

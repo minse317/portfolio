@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main() {
+function About() {
   return (
     <div className='h-screen font-noto-serif-kr text-5xl relative leading-relaxed '>
       <div className='p-20 '>        
@@ -15,4 +15,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default About;

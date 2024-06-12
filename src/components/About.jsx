@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='h-screen font-noto-serif-kr text-5xl relative leading-relaxed '>
-      <div className='p-20 '>        
+    <div className='h-screen text-5xl relative leading-relaxed'>
+      <div className='p-20'>        
           안녕하세요. <br/>
           신입 프론트엔드 개발자 <br/>
           <b>백민세</b>입니다.

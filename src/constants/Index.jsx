@@ -41,4 +41,6 @@ export const project = [
   // },
 ];
 
-export const Stack = ['javascript', 'css', 'html', 'react', 'styled-components', 'Notion', 'Github', 'Figma' ]
+export const fronted = ['HTML','JavaScript', 'CSS', 'React', 'styled-components']
+
+export const etc = ['Notion', 'Github', 'Figma']

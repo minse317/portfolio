@@ -1,19 +1,19 @@
 export const project = [
   {
-    title: "작전명 미림찾기",
-    desc: "훔칠 물건 리스트를 10초 내로 외우고, 캠에 인식하여 물건을 빠른 시간에 인식하는 인공지능 웹 게임",
-    period: "2021.01 - 2021.05",
-    skill: "React, JavaScript, CSS",
-    link: "https://github.com/minse317/Mirim_TulGi",
-    role: "MainPage, HowToUsePage 개발",
+    title: '작전명 미림찾기',
+    desc: '훔칠 물건 리스트를 10초 내로 외우고, 캠에 인식하여 물건을 빠른 시간에 인식하는 인공지능 웹 게임',
+    period: '2021.01 - 2021.05',
+    skill: 'React, JavaScript, CSS',
+    link: 'https://github.com/minse317/Mirim_TulGi',
+    role: 'MainPage, HowToUsePage 개발',
   },
   {
-    title: "대나무숲",
-    desc: "좋아하는 사람의 이름과 고백 문구를 적으면 암호화된 문구가 나오고, 이름과 암호문을 적으면 평소문으로 바꿔주는 사이트",
-    period: "2021.01 - 2021.04",
-    skill: "HTML, CSS, JavaScript",
-    link: "https://github.com/minse317/bamboo",
-    role: "디자인 및 개발",
+    title: '대나무숲',
+    desc: '좋아하는 사람의 이름과 고백 문구를 적으면 암호화된 문구가 나오고, 이름과 암호문을 적으면 평소문으로 바꿔주는 사이트',
+    period: '2021.01 - 2021.04',
+    skill: 'HTML, CSS, JavaScript',
+    link: 'https://github.com/minse317/bamboo',
+    role: '디자인 및 개발',
   },
   // {
   //   title: '르네상스',
@@ -42,11 +42,11 @@ export const project = [
 ]
 
 export const fronted = [
-  "HTML",
-  "JavaScript",
-  "CSS",
-  "React",
-  "styled-components",
+  'HTML',
+  'JavaScript',
+  'CSS',
+  'React',
+  'styled-components',
 ]
 
-export const etc = ["Notion", "Github", "Figma"]
+export const etc = ['Notion', 'Github', 'Figma']

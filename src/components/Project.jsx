@@ -1,5 +1,5 @@
-import React from "react"
-import { project } from "../constants/Index"
+import React from 'react'
+import { project } from '../constants/Index'
 
 function Project() {
   return (

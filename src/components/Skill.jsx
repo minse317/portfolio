@@ -1,5 +1,5 @@
-import React from "react"
-import { fronted, etc } from "../constants/Index"
+import React from 'react'
+import { fronted, etc } from '../constants/Index'
 
 function Skill() {
   return (

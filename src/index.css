@@ -27,3 +27,11 @@ p {
 body {
   @apply font-noto-serif-kr;
 }
+
+.animation-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+}

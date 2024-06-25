@@ -35,6 +35,15 @@ function App() {
     })
   }, [])
 
+  /* 모달창 열릴 때 배경 스크롤 방지 */
+  useEffect(() => {
+    if (projectDetail !== null) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'auto'
+    }
+  }, [projectDetail])
+
   return (
     <div>
       <div

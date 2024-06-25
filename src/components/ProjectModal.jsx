@@ -16,7 +16,7 @@ function ProjectModal({ project, onClose }) {
       <div className="bg-white p-10 rounded w-2/6 h-auto">
         <div className="flex items-baseline mb-5">
           <h2 className="mr-4">{project.title}</h2>
-          <p>{project.type}</p>
+          <p>#{project.type}</p>
         </div>
 
         <div className="space-y-2">

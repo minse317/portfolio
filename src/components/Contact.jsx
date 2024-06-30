@@ -21,7 +21,7 @@ function Contact() {
       <S.RightContainer>
         <h4>
           <a
-            href="https://drive.google.com/file/d/1fdwYqwTVB9cVi9mLdxoei3z1MWniiK5O/view"
+            href="https://drive.google.com/file/d/1PXF2AdiZWEO4CXXFDxUNY22RATJFzCi0/view"
             target="_blank"
             rel="noopener noreferrer"
           >

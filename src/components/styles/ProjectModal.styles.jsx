@@ -6,7 +6,7 @@ export const BackgoundContainer = styled.div`
 `
 
 export const ModalContainer = styled.div`
-  ${tw`bg-white p-10 rounded w-2/6 h-auto`}
+  ${tw`bg-white p-10 rounded w-3/5 h-auto`}
 
   @media (max-width: 640px) {
     ${tw`p-5 w-5/6 h-auto`}

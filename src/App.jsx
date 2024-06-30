@@ -8,8 +8,13 @@ import Skill from './components/Skill'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import ProjectModal from './components/ProjectModal'
+import tw from 'twin.macro'
 
 gsap.registerPlugin(ScrollTrigger)
+
+const Container = tw.div`
+  p-20 xs:p-10 md:p-10 
+`
 
 function App() {
   const sectionsRef = useRef([])
@@ -17,6 +22,8 @@ function App() {
   const handleCloseModal = () => setProjectDetail(null)
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+
     sectionsRef.current.forEach(section => {
       gsap.fromTo(
         section,
@@ -45,37 +52,39 @@ function App() {
   }, [projectDetail])
 
   return (
-    <div>
+    <>
       <div
         ref={el => (sectionsRef.current[0] = el)}
         className="animation-section"
       >
         <Intro />
       </div>
-      <div
-        ref={el => (sectionsRef.current[1] = el)}
-        className="animation-section"
-      >
-        <About />
-      </div>
-      <div
-        ref={el => (sectionsRef.current[2] = el)}
-        className="animation-section"
-      >
-        <Skill />
-      </div>
-      <div
-        ref={el => (sectionsRef.current[3] = el)}
-        className="animation-section"
-      >
-        <Project setProjectDetail={setProjectDetail} />
-      </div>
+      <Container>
+        <div
+          ref={el => (sectionsRef.current[1] = el)}
+          className="animation-section"
+        >
+          <About />
+        </div>
+        <div
+          ref={el => (sectionsRef.current[2] = el)}
+          className="animation-section"
+        >
+          <Skill />
+        </div>
+        <div
+          ref={el => (sectionsRef.current[3] = el)}
+          className="animation-section"
+        >
+          <Project setProjectDetail={setProjectDetail} />
+        </div>
+      </Container>
       <Contact />
 
       {projectDetail !== null && (
         <ProjectModal project={projectDetail} onClose={handleCloseModal} />
       )}
-    </div>
+    </>
   )
 }
 

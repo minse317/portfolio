@@ -1,11 +1,14 @@
 import React from 'react'
+import * as S from './styles/Intro.styles'
 
 function Intro() {
   return (
-    <div className="h-screen text-9xl relative">
-      <div className="p-20">BAEK MINSE</div>
-      <div className="absolute right-0 bottom-0 p-20">PORTFOLIO</div>
-    </div>
+    <S.MainContainer>
+      <S.TextContainer>
+        <div>MINSE's</div>
+        <div>PORTFOLIO</div>
+      </S.TextContainer>
+    </S.MainContainer>
   )
 }
 

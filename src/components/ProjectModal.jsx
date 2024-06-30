@@ -1,4 +1,5 @@
 import React from 'react'
+import * as S from './styles/ProjectModal.styles'
 
 function ProjectModal({ project, onClose }) {
   const handleOnClose = e => {
@@ -8,27 +9,18 @@ function ProjectModal({ project, onClose }) {
   if (!project) return null
 
   return (
-    <div
-      id="container"
-      onClick={handleOnClose}
-      className="fixed inset-0 bg-black bg-opacity-20 backdrop-blur-sm flex justify-center items-center"
-    >
-      <div className="bg-white p-10 rounded w-2/6 h-auto">
-        <div className="flex items-baseline mb-5">
+    <S.BackgoundContainer id="container" onClick={handleOnClose} className="">
+      <S.ModalContainer>
+        <S.TitleContainer>
           <h2 className="mr-4">{project.title}</h2>
           <p>#{project.type}</p>
-        </div>
+        </S.TitleContainer>
 
-        <div className="space-y-2">
+        <S.ProjectInfoContainer>
           <p>{project.desc}</p>
-          <div className="flex">
+          <S.LinkText>
             <p className="mr-5">
-              <a
-                href={project.link}
-                className="underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
             </p>
@@ -36,7 +28,6 @@ function ProjectModal({ project, onClose }) {
               <p>
                 <a
                   href={project.presentation}
-                  className="underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -44,15 +35,15 @@ function ProjectModal({ project, onClose }) {
                 </a>
               </p>
             )}
-          </div>
+          </S.LinkText>
           <p>{project.period}</p>
           <p>{project.skill}</p>
           <p>{project.role}</p>
           <h4>느낀 점</h4>
-          <p className="whitespace-pre-wrap pt-0">{project.review}</p>
-        </div>
-      </div>
-    </div>
+          <S.Review>{project.review}</S.Review>
+        </S.ProjectInfoContainer>
+      </S.ModalContainer>
+    </S.BackgoundContainer>
   )
 }
 

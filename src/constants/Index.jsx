@@ -1,5 +1,16 @@
 export const project = [
   {
+    title: 'BEAK MINSE\nPORTFOLIO',
+    type: '개인 프로젝트',
+    desc: '포트폴리오 사이트',
+    period: '2024.06',
+    skill: 'React,Vite, JavaScript, Tailwind CSS, styled-components, GSAP',
+    link: 'https://github.com/minse317/Mirim_TulGi',
+    role: 'MainPage, HowToUsePage 개발',
+    review:
+      'CSS 위치 정렬에 대해 좀 더 깊이 이해하게 된 프로젝트였습니다. 이 프로젝트를 통해 다양한 위치 정렬 기법을 적용하고, 요소들을 원하는 위치에 정확하게 배치하는 방법을 학습하였습니다.',
+  },
+  {
     title: '작전명 미림찾기',
     type: '팀 프로젝트',
     desc: '훔칠 물건 리스트를 10초 내로 외우고, 캠에 인식하여 물건을 빠른 시간에 인식하는 인공지능 웹 게임',

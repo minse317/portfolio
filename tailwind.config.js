@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         'noto-serif-kr': ['Noto Serif KR', 'serif'],
       },
+      colors: {
+        softBeige: '#F5EFE9',
+      },
       screens: {
         xs: '320px',
         sm: '640px',

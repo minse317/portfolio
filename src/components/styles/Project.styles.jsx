@@ -16,7 +16,7 @@ export const ProjectContainer = styled.div`
 `
 
 export const ProjectBtn = styled.button`
-  ${tw`relative inline-block overflow-hidden border-l-2 border-black bg-white m-5 p-5 space-y-2 text-left`}
+  ${tw`relative inline-block overflow-hidden border-l-2 border-black bg-transparent m-5 p-5 space-y-2 text-left`}
 
   @media (max-width: 640px) {
     width: 100%;

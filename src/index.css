@@ -26,6 +26,7 @@ p {
 
 body {
   @apply font-noto-serif-kr;
+  @apply bg-softBeige;
 }
 
 .animation-section {
